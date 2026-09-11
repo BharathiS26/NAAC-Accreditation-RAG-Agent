@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+naac_rag/naac_index.faiss
+naac_rag/naac_meta.pkl
+.bob/
+.vscode/
+agents/
+connections/
+knowledge-bases/
+models/
+toolkits/
+tools/
+*.zip

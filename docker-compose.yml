@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  naac-rag:
+    build: .
+    image: naac-rag-agent:latest
+    container_name: naac-rag-agent
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - PDF_PATH=/app/Revised-Autonomous-Manual-as-on-24-2-2020_2.pdf
+    restart: unless-stopped

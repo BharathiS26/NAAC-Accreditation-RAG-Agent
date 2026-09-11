@@ -1,0 +1,56 @@
+# -- Credentials & secrets -------------------------------------------------
+.env
+*.env
+.env.*
+secrets.yaml
+secrets.json
+
+# -- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -- Virtual environments ---------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -- uv --------------------------------------------------------------------
+.uv/
+uv.lock
+
+# -- FAISS index & pickled data (generated, not source) --------------------
+naac_rag/naac_index.faiss
+naac_rag/naac_meta.pkl
+*.faiss
+*.pkl
+
+# -- OS files --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -- IDE / editor ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -- Bob / Orchestrate tooling ---------------------------------------------
+.bob/
+workspace_config.yaml
+
+# -- Docker build cache ----------------------------------------------------
+.dockerignore_cache
+
+# -- Logs & temp -----------------------------------------------------------
+*.log
+*.tmp
+tmp/
