@@ -1,0 +1,9 @@
+﻿{
+  "name": "naac-accreditation-rag-agent",
+  "version": "1.0.0",
+  "description": "AI-powered RAG agent for NAAC accreditation guidance using IBM watsonx and Granite",
+  "problem_statement": "Problem Statement No.3 - AI agent for NAAC accreditation processes (RAG Based)",
+  "technology": ["IBM watsonx.ai", "IBM Granite", "watsonx Orchestrate ADK", "IBM Cloud Lite"],
+  "model": "ibm/ granite-4.0-h-small",
+  "entry_point": "main.py"
+}
